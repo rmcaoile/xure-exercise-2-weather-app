@@ -11,19 +11,24 @@ A simple and responsive weather application built with **React** that fetches an
 
 
 ## Walkthrough
-- Search Input
-    User enters the name of a city in the input field.
-    Pressing **Enter** triggers the fetch process.
-- Data Fetching
-    The app sends a GET request to the GoWeather API.
-    Displays a loading message while waiting for the response.
-- Display Result
-    If successful, the weather details are displayed:
-        - Temperature
-        - Wind
-        - Description
-- Error Handling
-    If no city is entered or the city has no valid data, a descriptive error message is shown.
+- **Search Input**  
+  Users can type the name of a city in the input field.  
+  Pressing **Enter** triggers the weather data fetch from the GoWeather API.
+
+- **Data Fetching**  
+  A GET request is sent to the GoWeather API for the specified city.  
+  While waiting for a response, a loading indicator is shown.
+
+- **Weather Display**  
+  If the API returns valid data, the following weather details are shown:  
+  - Temperature  
+  - Wind  
+  - Description  
+
+- **Error Handling**  
+  If the input is empty, contains only spaces, or returns no valid data,  
+  a descriptive error message is displayed to the user.
+
 
 
 ## What I Learned
